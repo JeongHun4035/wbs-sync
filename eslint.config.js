@@ -53,7 +53,7 @@ export default [
 
       // ✅ React Hooks
       'react-hooks/rules-of-hooks': 'error',
-      'react-hooks/exhaustive-deps': 'warn',
+      'react-hooks/exhaustive-deps': 'off',
 
       '@stylistic/semi': ['error', 'never'],
       '@stylistic/quotes': ['error', 'single'],

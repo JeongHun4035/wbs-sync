@@ -1,9 +1,5 @@
+import { redirect } from 'next/navigation'
+
 export default function Main() {
-  return (
-    <div>
-      <main>
-        <div> hello1 </div>
-      </main>
-    </div>
-  )
+  redirect('/dashboard')
 }

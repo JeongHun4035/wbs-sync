@@ -156,4 +156,17 @@
            bg-white px-4 py-2 text-sm font-medium
            text-slate-700 transition hover:bg-slate-100;
   }
+
+  @keyframes input-shake {
+    0%   { transform: translateX(0); }
+    20%  { transform: translateX(-4px); }
+    40%  { transform: translateX(4px); }
+    60%  { transform: translateX(-3px); }
+    80%  { transform: translateX(3px); }
+    100% { transform: translateX(0); }
+  }
+
+  .animate-input-shake {
+    animation: input-shake 0.2s ease-in-out;
+  }
 }
