@@ -55,12 +55,14 @@ export default [
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
 
-      // ✅ Stylistic (너가 쓰는 Prettier 대체 세트)
       '@stylistic/semi': ['error', 'never'],
       '@stylistic/quotes': ['error', 'single'],
       '@stylistic/indent': ['error', 2],
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
       '@stylistic/arrow-parens': ['error', 'as-needed'],
+      '@stylistic/jsx-indent': ['error', 2],
+      '@stylistic/jsx-curly-spacing': ['error', { when: 'never', children: true }],
+      '@stylistic/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
 
       // ✅ unused-imports
       '@typescript-eslint/no-unused-vars': 'off',
